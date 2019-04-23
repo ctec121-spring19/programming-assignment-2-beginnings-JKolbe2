@@ -2,7 +2,7 @@
 #   Programming Assignment 2
 #     Prob-2.py
 
-# YOUR NAME
+# Jeremy Kolbe
 
 # Follow the steps below. Add your code in the blank line after each comment
 
@@ -23,3 +23,14 @@
     # copy the print statment from above
 
 # call the function main
+
+def main(): 
+
+#I need help with this one. 
+
+
+
+
+
+
+main()
