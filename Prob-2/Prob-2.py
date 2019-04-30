@@ -25,11 +25,15 @@
 # call the function main
 
 def main(): 
-
-#I need help with this one. 
-
-
-
+    number = int(input("Enter a number: "))
+    squared = number * number
+    print("The square of", number, "is", squared)
+    number1 = float(input("Enter a number: "))
+    squared1 = number1 * number1
+    print("The square of", number1, "is", squared1)
+    number2 = eval(input("Enter a number: "))
+    squared2 = number2 * number2
+    print("The square of", number2, "is", squared2)
 
 
 

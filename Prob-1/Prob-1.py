@@ -34,17 +34,18 @@ def main():
     blank line provided.
     '''
 
-    # create variables and set values for:
+# create variables and set values for:
+
     # location
-
+    classLocation = "SHL 125"
     # time
-
+    classTime = "MW 10:30A - 12:50P"
     # quarter
-
+    classQuarter = "Spring 2019"
     # item - bonus points if you define item as a number
-
+    classItem = 6485
     # section - bonus points if you use "A" as the value
-    
+    classSection = "A"
     # print the output
     # print a blank line
     
@@ -52,21 +53,17 @@ def main():
     # Ex: Bill's Output
     print("Jeremy's Output")
     # print the title - copy the code above
-    classTitle = "Intro to Programming and Problem Solving"
     print("\tTitle:\t\t", classTitle, sep="")
     # print the location
-    location = "SHL 125"
-    print("\tLocation:\t\t", location, sep="")
+    print("\tLocation:\t", classLocation, sep="")
     # print the time
-    time = "MW 10:30A – 12:50P"
-    print("\tTime:\t\t", time, sep="")
+    print("\tTime:\t\t", classTime, sep="")
     # print the quarter
-    quarter = "Spring 2019" 
-    print("\tQuarter:\t\t",quarter, sep="")
+    print("\tQuarter:\t", classQuarter, sep="")
     # print item/section
-    item = "item6485, section A"
-    print("\tItem/section:\t\t",item, sep="")
+    print("\tItem/Section:\t", "Item ", classItem, ", ", "Section ", classSection, sep="")
     # print a blank line
+    print()
 
 
 main()
